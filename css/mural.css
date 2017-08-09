@@ -1,0 +1,30 @@
+.mural {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	/*align-items: center;*/
+	font-size: 1.2rem;
+}
+
+.mural--linhas {
+	flex-direction: column;
+}
+
+.mural--linhas .cartao {
+	flex-basis: auto;
+	width: auto;
+	display: block; 
+}
+
+@media (min-width: 610px) {
+	.mural {
+		align-items: flex-start;
+	}
+}
+
+@media (min-width: 900px) {
+	.mural {
+		align-items: center;
+		font-size: 1.3rem;
+	}
+}
