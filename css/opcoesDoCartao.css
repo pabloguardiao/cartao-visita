@@ -53,7 +53,7 @@
 	box-sizing: border-box;
 }
 
-.opcoesDoCartao-radioCor:checked+.opcoesDoCartao-cor {
+.opcoesDoCartao-radioCor:checked + .opcoesDoCartao-cor {
 	background: currentcolor;
 	border: 5px solid rgba(0,0,0,.5);
 }
